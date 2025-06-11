@@ -1,0 +1,52 @@
+
+> react-kavia@0.1.0 start
+> cross-env EDIT_MODE=true webpack serve --config .ve/webpack.config.js --mode development
+
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:3000/, http://[::1]:3000/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:3000/
+<i> [webpack-dev-server] Content not from webpack is served from './public' directory
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+asset bundle.js 1.39 MiB [emitted] (name: main)
+asset index.html 1.92 KiB [emitted]
+runtime modules 27.5 KiB 14 modules
+modules by path ./node_modules/ 1.24 MiB 31 modules
+modules by path ./src/ 10.3 KiB
+  modules by path ./src/*.css 7.49 KiB 4 modules
+  modules by path ./src/*.js 2.76 KiB
+    ./src/index.js 530 bytes [built] [code generated]
+    ./src/App.js 2.24 KiB [built] [code generated]
+modules by path ./.ve/ 15.1 KiB
+  modules by path ./.ve/*.js 10.6 KiB 2 modules
+  modules by path ./.ve/*.css 2.93 KiB
+    ./.ve/EditorOverlay.css 2.25 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
+  ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 1436 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.43 MiB
+  asset bundle.js 1.41 MiB [emitted] (name: main)
+  asset main.d6996cf7539642cfe1dd.hot-update.js 19.9 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.d6996cf7539642cfe1dd.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.43 MiB = bundle.js 1.41 MiB main.d6996cf7539642cfe1dd.hot-update.js 19.9 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 8.51 KiB
+  modules by path ./src/*.js 3.62 KiB
+    ./src/App.js 1.29 KiB [built] [code generated]
+    ./src/BlockBurstContainer.js 2.33 KiB [built] [code generated]
+  modules by path ./src/*.css 4.89 KiB
+    ./src/BlockBurstContainer.css 2.27 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js!./src/BlockBurstContainer.css 2.63 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 116 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.41 MiB
+  asset bundle.js 1.41 MiB [emitted] (name: main)
+  asset main.d3a3ad4e944084fe8b4e.hot-update.js 2.92 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.d3a3ad4e944084fe8b4e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.41 MiB main.d3a3ad4e944084fe8b4e.hot-update.js 2.92 KiB
+cached modules 1.27 MiB [cached] 44 modules
+runtime modules 27.5 KiB 14 modules
+./src/index.js 567 bytes [built] [code generated]
+webpack 5.99.9 compiled successfully in 62 ms
